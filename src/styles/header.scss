@@ -1,7 +1,7 @@
 @import 'colors';
 nav {
     height : 5rem;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,12 +36,12 @@ nav {
     }
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and  (max-width: 600px) {
     nav {
-        padding: 1rem;
-        >div >a {
-            margin: 0 0.5;
-        }
+      padding: 1rem;
+      > div > a {
+        margin: 0 0.5rem;
+      }
     }
-    
-}
+  }
+  
