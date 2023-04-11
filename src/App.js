@@ -2,6 +2,8 @@ import './styles/app.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Header from './components/layout/Header';
+import './styles/home.scss';
+import './styles/header.scss';
 function App() {
   return (
     <BrowserRouter>
